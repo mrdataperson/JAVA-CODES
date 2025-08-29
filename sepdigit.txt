@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class sepdigit
+{
+    public static void main(String args[])
+    {
+        Scanner g = new Scanner(System.in);
+        int H = g.nextInt();
+
+        while(H>0)
+        {
+            H%=10;
+            System.out.println(H);
+            H/=10
+        }
+    }
+}
