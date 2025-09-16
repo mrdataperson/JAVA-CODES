@@ -10,10 +10,10 @@ public class hallsquare
                 {
                     System.out.print("* ");
                 }
-                else if(i==j || i+j==6)
+                /*else if(i==j || i+j==6)
                 {
                     System.out.print("* ");
-                }
+                }*/
                 else
                 {
                     System.out.print("  ");
